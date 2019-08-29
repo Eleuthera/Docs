@@ -1,6 +1,3 @@
-# Helpful Info
-
-This stuff will be moved eventually, please don't explode
 
 ### Elf32 Header Table
 
