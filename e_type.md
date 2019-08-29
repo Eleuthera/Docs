@@ -11,5 +11,9 @@ This is the flag which defines the intended linking behaviour of our executable.
 |4    |ET_CORE  |Core         |
 
 <br>
+
 <br>
-No idea what core means.
+
+No idea what core means. 
+
+Hopefully, we can explain some codes below:
