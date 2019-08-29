@@ -27,5 +27,3 @@
 |EI_ABIVERSION|8      |ABI Version           |
 |EI_PAD       |9      |Start of padding bytes|
 
-Looks like we'll need another file for these.
-Which means we will need a directory.
