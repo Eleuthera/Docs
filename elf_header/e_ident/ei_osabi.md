@@ -23,6 +23,6 @@
 |97     |ARM           |
 |256    |Standalone    |
 
-Even though GNU/Linux is right there, you need to resist temptation.
-The spec says we should use 0. Unless we want to use extensions.
+Even though GNU/Linux is right there, you must resist temptation.
+The spec says we should use 0, since we don't need extensions.
 

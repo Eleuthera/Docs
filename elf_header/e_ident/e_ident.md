@@ -27,4 +27,13 @@
 |EI_ABIVERSION|8      |ABI Version           |
 |EI_PAD       |9      |Start of padding bytes|
 
+<br>
+
+### Some helpful links 
 [EI_MAGIC](./ei_magic.md)
+[EI_CLASS](./ei_class.md)
+[EI_DATA](./ei_data.md)
+[EI_VERSION](./ei_version.md)
+[EI_OSABI](./ei_osabi.md)
+[EI_ABIVERSION](./ei_abiversion.md)
+

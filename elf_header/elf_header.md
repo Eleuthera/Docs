@@ -4,8 +4,9 @@
 |size |Label      |Brief Description                |
 |-----|-----------|---------------------------------|
 |16   |e_ident    |Magic codes                      |
+|2    |e_type     |Object file type                 |
 |2    |e_machine  |Self explanatory                 |
-|2    |e_version  |Never 0                          |
+|4    |e_version  |Never 0                          |
 |4    |e_entry    |Entry point for the program      |
 |4    |e_phoff    |Program header offset            |
 |4    |e_shoff    |Section header offset            |
