@@ -1,8 +1,21 @@
-|Notation       |Size    |Alignment    |Alias|
-|---------------|--------|-------------|-----|
-|Elf32_Addr     |4       |4            |u4   |
-|Elf32_Half     |2       |2            |u2   |
-|Elf32_Off      |4       |4            |u4   |
-|Elf32_Sword    |4       |4            |s4   |
-|Elf32_Word     |4       |4            |u4   |
-|unsigned char  |1       |1            |u1   |
+# Helpful Info
+
+This stuff will be moved eventually, please don't explode
+
+### Elf32 Header Table
+
+|size |Label      |Brief Description                |
+|-----|-----------|---------------------------------|
+|4    |e_ident    |Magic codes                      |
+|2    |e_machine  |Self explanatory                 |
+|4    |e_version  |Never 0                          |
+|4    |e_entry    |Entry point for the program      |
+|4    |e_phoff    |Program header offset            |
+|4    |e_shoff    |Section header offset            |
+|4    |e_flags    |I don't even know                |
+|2    |e_ehsize   |Elf header size                  |
+|2    |e_phentsize|Program header entry size        |
+|2    |e_phnum    |Program header number            |
+|2    |e_shentsize|Section header entry size        |
+|2    |e_shnum    |Section header number            |
+|2    |e_shstrndx |Section header string table index|
